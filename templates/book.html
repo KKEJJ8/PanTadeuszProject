@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h2>{{ book_title }}</h2>
+<div class="book-content">
+    {{ book_content | safe }}
+</div>
+{% endblock %}
