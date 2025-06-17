@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-# Book mapping
+
 BOOKS = {
     f'k{i}': f'Book {i}' for i in range(1, 13)
 }
